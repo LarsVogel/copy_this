@@ -1,0 +1,20 @@
+{
+  "name": "response/resgooglecaptcha",
+  "description": "Google Recaptcha OXID 6 Module",
+  "type": "oxideshop-module",
+  "homepage": "http://www.response-gmbh.de",
+  "version": "2.2.0",
+  "extra": {
+    "oxideshop": {
+      "target-directory": "response/resGoogleCaptcha"
+    }
+  },
+  "require": {
+    "google/recaptcha": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RESPONSEGmbH\\resGoogleCaptcha\\": "../../../source/modules/response/resGoogleCaptcha"
+    }
+  }
+}
